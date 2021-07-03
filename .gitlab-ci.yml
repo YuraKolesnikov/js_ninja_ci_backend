@@ -36,7 +36,7 @@ prettier:
     - npm run check:format
 
 deploy:
-  image: ubuntu-latest
+  image: ubuntu:latest
   stage: deploy
   script:
     - apk -qq update && apt upgrade -qqy openssh-client
