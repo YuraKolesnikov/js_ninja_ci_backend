@@ -6,6 +6,9 @@ module.exports = {
       watch: '.',
       env_production: {
         NODE_ENV: 'production',
+        DB_NAME: 'realworld',
+        DB_USER: 'realworld',
+        DB_PASSWORD: 'realworld',
       },
     },
   ],
