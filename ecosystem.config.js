@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: process.env.DB_NAME,
+      name: 'realworld',
       script: 'lib/server.js',
       watch: '.',
       env_production: {
